@@ -5,7 +5,7 @@ import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa'
 export default function Footer() {
   return (
     <>
-    <div className='bg-text pb-10 mt-28'>
+    <div className='bg-text pb-10'>
     <div className='container py-20'>
         <div className='c-flex flex-wrap'>
             {/* Footer logo */}
