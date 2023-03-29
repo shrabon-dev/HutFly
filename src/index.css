@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .container{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .inputCss{
+       @apply border-2 h-10 border-main px-5  w-72 rounded-l-lg font-inter text-sm  focus:outline-none
+    }
+    .inputCategoryCss{
+       @apply bg-gradient-to-t from-[#107CFF] to-main h-10 text-white border-2 border-main px-2 font-inter text-sm focus:outline-none
+    }
+
+    option{
+      background: #107CFF;
+      padding: 44px !important;
+      display: inline-block;
+
+    }
+    .inputButtonCss{
+       @apply bg-gradient-to-t from-[#107CFF] to-main h-10 text-white border-2 border-blue-500 px-2 font-inter text-sm rounded-r-lg
+    }
+    .c-flex{
+      @apply flex justify-between items-center
+    }
+    .a-button{
+      @apply bg-main text-base py-2 px-4 font-inter font-normal text-white rounded-md 
+    }
+    .heading{
+       @apply font-inter text-xl font-bold
+    }
+    .p{
+       @apply font-inter text-base font-normal
+    }
+    .m-menu-a{
+      @apply text-lg font-normal text-white font-inter pb-3 mb-3 inline-block hover:text-HalfColor duration-300 ease-in-out 
+    }
+    
+}
